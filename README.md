@@ -9,7 +9,6 @@ A modern and responsive **Machine Learning-powered web application** built with 
 - [🔍 Overview](#-overview)
 - [🎯 Features](#-features)
 - [📊 Model Insights](#-model-insights)
-- [📸 App Preview](#-app-preview)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📦 Installation](#-installation)
 - [▶️ Run the App](#️-run-the-app)
@@ -69,12 +68,6 @@ This app allows users to input a few personal and professional details such as a
   - RMSE
   - MAE
   - R² Score
-
----
-
-## 📸 App Preview
-
-> ![App Screenshot](static/screenshot.png)
 
 ---
 
