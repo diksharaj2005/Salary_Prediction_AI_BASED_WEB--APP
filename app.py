@@ -147,13 +147,13 @@ with st.form(key="salary_prediction_form"):
     col1, col2 = st.columns(2)
 
     with col1:
-        age = st.number_input("🎂 Age", min_value=18, max_value=70, value=30)
+        age = st.number_input("🎂 Age", min_value=18, max_value=70, value=18)
         gender = st.selectbox("🧑 Gender", ["Male", "Female", "Other"])
         education = st.selectbox("🎓 Education Level", education_levels)
 
     with col2:
         job_title = st.selectbox("💼 Job Title", job_titles)
-        experience = st.number_input("📈 Years of Experience", min_value=0, max_value=50, value=5)
+        experience = st.number_input("📈 Years of Experience", min_value=0, max_value=50, value=0)
 
     submitted = st.form_submit_button("🔍 Predict Salary")
 
