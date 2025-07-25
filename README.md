@@ -93,7 +93,7 @@ Trained model: models/salary_model.pkl
 
 
 ### step 5 run the app
-streamlit run app.py
+streamlit run app.py```
 
 ---
  Project Structure
