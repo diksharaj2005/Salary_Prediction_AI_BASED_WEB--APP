@@ -67,13 +67,25 @@ Interface:
   - Custom CSS
   - Background blur using `filter: blur(...)`
 - **Model**: Trained XGBoost regression model (`salary_model.pkl`)
+----
+ Project Structure
+salary-predictor-app/
+├── app.py                  # Main Streamlit app script
+├── models/
+│   └── salary_model.pkl    # Trained XGBoost model
+├── static/
+│   ├── bg.png              # Background image for UI
+│   └── screenshot.png      # App preview image
+├── requirements.txt        # Python package dependencies
+└── README.md               # Project documentation
 
 ---
 
  Installation
 
- Step 1: Clone the Repository
+ 
 ```bash
+###Step 1: Clone the Repository
 git clone https://github.com/your-username/salary-predictor-app.git
 cd ibm
 
@@ -93,21 +105,8 @@ Trained model: models/salary_model.pkl
 
 
 ### step 5 run the app
-streamlit run app.py```
+streamlit run app.py  ```
 
 ---
- Project Structure
-salary-predictor-app/
-├── app.py                  # Main Streamlit app script
-├── models/
-│   └── salary_model.pkl    # Trained XGBoost model
-├── static/
-│   ├── bg.png              # Background image for UI
-│   └── screenshot.png      # App preview image
-├── requirements.txt        # Python package dependencies
-└── README.md               # Project documentation
 
------
- Author
-Diksha Raj
-Built with ❤️ using Streamlit and Machine Learning.
+
