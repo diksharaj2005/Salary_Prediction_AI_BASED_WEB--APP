@@ -85,7 +85,8 @@ salary-predictor-app/
 
  ###Step 1: Clone the Repository
 
- ```git clone https://github.com/your-username/salary-predictor-app.git```
+ ```git clone https://github.com/diksharaj2005/salary-predictor-app.git```
+ 
 ```cd ibm```
 
 
