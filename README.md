@@ -83,30 +83,25 @@ salary-predictor-app/
 
  Installation
 
- 
-```bash
-###Step 1: Clone the Repository
-git clone https://github.com/your-username/salary-predictor-app.git
-cd ibm
+ ###Step 1: Clone the Repository
 
-### Step 2: Set Up Virtual Environment (optional but recommended)
-```bash
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-
-### Step 3: Install Dependencies
-``` bash
-
-pip install -r requirements.txt
+ ```git clone https://github.com/your-username/salary-predictor-app.git```
+```cd ibm```
 
 
-### Step 4: Ensure Assets Are in Place
-Trained model: models/salary_model.pkl
+
+### Step 2: Install Dependencies
+
+```pip install -r requirements.txt```
 
 
-### step 5 run the app
-streamlit run app.py  ```
+### Step 3: Ensure Assets Are in Place
+```Trained model: models/salary_model.pkl```
 
----
+
+### step 4 run the app
+```streamlit run app.py  ```
+
+
 
 
